@@ -6,4 +6,5 @@ matplotlib
 seaborn
 sklearn
 shap
+scikit-learn
 
