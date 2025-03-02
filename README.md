@@ -1,19 +1,28 @@
 # Credit Risk Prediction - Loan Default Probability
-## Overview
-This project predicts credit risk by evaluating the probability of loan default using machine learning models such as Random Forest, AdaBoost, and XGBoost. It features an interactive Streamlit web app to allow easy user interaction, along with visualizations for deeper insights into the loan approval process. The project also includes a Jupyter Notebook for model training, evaluation, and comparison.
 
-## Key Features
-Loan Approval Risk Prediction: Predicts the likelihood of loan defaults based on historical data.  
-Model Comparison: Compares the performance of different models (Random Forest, AdaBoost, XGBoost).  
-Hyperparameter Tuning: Optimizes the model using techniques like GridSearchCV.  
-Interactive Visualizations: Visual representations of data insights using pie charts, bar plots, scatter plots, and heatmaps.  
+This project predicts credit risk (loan default probability) using machine learning models such as Random Forest, AdaBoost, and XGBoost. It includes a Streamlit web app for easy user interaction and visualization of predictions, along with a Jupyter Notebook for model training, evaluation, and hyperparameter tuning.
 
-## Technologies Used
-Machine Learning: Python, Scikit-learn, XGBoost, AdaBoost, RandomForest.  
-Web Framework: Streamlit (for the web app)  
-Data Visualization: Matplotlib, Seaborn  
-Modeling & Evaluation: Jupyter Notebook for training and performance analysis  
+## 📌 Key Features:
+- **Loan approval risk prediction**: Predict the probability of loan default using multiple machine learning models.
+- **Model comparison & hyperparameter tuning**: Compare the performance of different models and fine-tune their hyperparameters to optimize prediction accuracy.
+- **Interactive visualizations**: Visualize the results with interactive charts (e.g., pie charts, bar plots, scatter plots, heatmaps) to gain insights into the dataset and model performance.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.  
+## 🛠️ Technologies Used:
+- **Programming Language**: Python
+- **Libraries**:
+  - `scikit-learn`: Machine learning models and tools
+  - `XGBoost`: Gradient boosting framework for prediction
+  - `pandas`: Data manipulation and analysis
+  - `matplotlib`, `seaborn`: Data visualization
+  - `Streamlit`: Web app for interacting with the model
+  - `joblib`: Saving and loading trained models
+- **Deployment**:
+  - Streamlit for web app deployment
+  
+## 🔧 Installation
 
+Follow these steps to get the project up and running on your local machine:
+
+### 1. Clone the Repository:
+```bash
+git clone https://github.com/Mishthijainn/default-loan-prediction.git
